@@ -237,6 +237,7 @@ detect:
   # Optional: height of the frame for the input with the detect role (default: use native stream resolution)
   height: 720
   # Optional: desired fps for your camera for the input with the detect role (default: shown below)
+  # The other frame counting settings under detect are relative to this FPS value (versus the actual camera FPS)
   # NOTE: Recommended value of 5. Ideally, try and reduce your FPS on the camera.
   fps: 5
   # Optional: enables detection for the camera (default: True)
